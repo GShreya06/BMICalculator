@@ -9,11 +9,22 @@
 </head>
 
 <body>
+    <div class="container">
+        <h1>BMI CALCULATOR</h1>
+        <label for="height">Height:</label>
+        <input type="text"><br><br>
+        <label for="weight">Weight:</label>
+        <input type="text"><br><br>
+        <button>Calculate</button>
+
+    </div>
+
+
     <script>
         var height = 1.8;
         var weight = 65;
         function bmicalculator(weight, height) {
-            return weight /(Math.pow(height, 2));
+            return weight / (Math.pow(height, 2));
         }
         var bmi = bmicalculator(65, 1.8)
         console.log(Math.round(bmi));

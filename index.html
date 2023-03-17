@@ -15,7 +15,10 @@
         <input type="text"><br><br>
         <label for="weight">Weight:</label>
         <input type="text"><br><br>
+        <input type="text" id="Result"><br><br>
+
         <button>Calculate</button>
+
 
     </div>
 
@@ -27,8 +30,7 @@
             return weight / (Math.pow(height, 2));
         }
         var bmi = bmicalculator(65, 1.8)
-        console.log(Math.round(bmi));
-
+        document.onclick(button)
     </script>
 
 
